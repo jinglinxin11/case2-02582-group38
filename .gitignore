@@ -1,0 +1,27 @@
+# Raw/licensed data: do not upload to GitHub.
+data/
+data.zip
+HR_data_2.zip
+
+# Course-provided materials/templates should stay local unless explicitly permitted.
+02582_2026_caseII_*.pdf
+case2reportTemplate.tex
+caseII_report_template.pdf
+
+# Local video assets and generated recordings.
+vedio/
+submission/video/
+*.mp4
+*.m4a
+*.srt
+
+# Temporary build/render artifacts.
+submission/tmp/
+__pycache__/
+*.pyc
+
+# OS/editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

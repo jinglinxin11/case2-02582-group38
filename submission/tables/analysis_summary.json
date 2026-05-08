@@ -1,0 +1,50 @@
+{
+  "n_rows": 312,
+  "n_individuals": 26,
+  "n_features": 51,
+  "feature_missing_total": 2,
+  "total_missing": 9,
+  "phase_counts": {
+    "phase1": 104,
+    "phase2": 104,
+    "phase3": 104
+  },
+  "cohort_counts": {
+    "D1_1": 96,
+    "D1_2": 72,
+    "D1_3": 48,
+    "D1_4": 48,
+    "D1_5": 24,
+    "D1_6": 24
+  },
+  "frustration_counts": {
+    "0.0": 87,
+    "1.0": 65,
+    "2.0": 62,
+    "3.0": 28,
+    "4.0": 30,
+    "5.0": 18,
+    "6.0": 10,
+    "7.0": 8,
+    "8.0": 4
+  },
+  "supervised_sanity_loso_logistic": {
+    "auc": 0.7788461538461537,
+    "balanced_accuracy": 0.6923076923076923,
+    "f1": 0.7009345794392523
+  },
+  "one_class_svm_loso_nu_0_10": {
+    "phase2": {
+      "auc": 0.40171967455621305,
+      "balanced_accuracy": 0.40384615384615385,
+      "phase1_anomaly_rate": 0.3942307692307692,
+      "phase2_anomaly_rate": 0.20192307692307693
+    },
+    "phase3": {
+      "auc": 0.4318602071005917,
+      "balanced_accuracy": 0.4326923076923077,
+      "phase1_anomaly_rate": 0.3942307692307692,
+      "phase3_anomaly_rate": 0.25961538461538464
+    }
+  }
+}

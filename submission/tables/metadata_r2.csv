@@ -1,0 +1,13 @@
+version,label,weighted_r2
+raw_scaled,Phase,0.029694565563624285
+raw_scaled,Individual,0.6451993852394085
+raw_scaled,Cohort,0.3282009886268854
+raw_scaled,Puzzler,0.004947566771717066
+subject_z,Phase,0.09885004158195802
+subject_z,Individual,1.0095488113674624e-07
+subject_z,Cohort,2.2210073439410417e-08
+subject_z,Puzzler,4.038195247738802e-09
+delta_phase1,Phase,0.05967582549805393
+delta_phase1,Individual,0.14642040739765463
+delta_phase1,Cohort,0.048309900406027825
+delta_phase1,Puzzler,0.005666098530086933
