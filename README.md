@@ -32,6 +32,3 @@ python .\submission\case2_analysis.py
 
 This regenerates `figure1`-`figure6` and the corresponding result tables used by the report and poster.
 
-## Notes
-
-The report includes an acknowledgement of GenAI use. Raw data, course-provided material, generated videos, temporary files, poster/video/PDF generation scripts, and unused poster variants are intentionally excluded from version control.
