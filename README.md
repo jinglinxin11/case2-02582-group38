@@ -6,8 +6,7 @@ This repository contains the final Case 2 submission materials for the EmoPairCo
 
 - `submission/case2_report.pdf`: final written report.
 - `submission/case2_report.tex`: report source.
-- `submission/case2_reference_grade_poster.pdf`: final poster PDF.
-- `submission/case2_reference_grade_poster.png`: final poster image.
+- `submission/case2_poster.png`: final poster image used for the presentation.
 - `submission/case2_analysis.py`: core reproducible analysis script.
 - `submission/figures/`: figures used in the report.
 - `submission/tables/`: numerical result summaries used in the report.
@@ -27,4 +26,4 @@ python .\submission\case2_analysis.py
 
 ## Notes
 
-The report includes an acknowledgement of GenAI use. Raw data, course-provided material, generated videos, temporary files, and PDF/poster/video generation scripts are intentionally excluded from version control.
+The report includes an acknowledgement of GenAI use. Raw data, course-provided material, generated videos, temporary files, poster/video/PDF generation scripts, and unused poster variants are intentionally excluded from version control.

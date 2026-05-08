@@ -15,6 +15,16 @@ submission/video/
 *.m4a
 *.srt
 
+# Local generation scripts and extra poster variants kept out of the public repo.
+submission/build_*.py
+submission/make_video_poster*.py
+submission/case2_academic_poster.*
+submission/case2_reference_grade_poster.*
+submission/case2_vertical_poster.*
+submission/case2_video_poster.pdf
+submission/video_poster_script*.md
+submission/case2_extended_analysis.py
+
 # Temporary build/render artifacts.
 submission/tmp/
 submission/*.zip
