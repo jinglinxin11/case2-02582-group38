@@ -5,7 +5,6 @@ This repository contains the final Case 2 submission materials for the EmoPairCo
 ## Contents
 
 - `submission/case2_report.pdf`: final written report.
-- `submission/case2_report.tex`: report source.
 - `submission/case2_poster.png`: final poster image used for the presentation.
 - `submission/case2_analysis.py`: core reproducible analysis script for the report and poster figures.
 - `submission/figures/`: figures used in the report and final poster.
