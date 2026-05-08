@@ -46,5 +46,74 @@
       "phase1_anomaly_rate": 0.3942307692307692,
       "phase3_anomaly_rate": 0.25961538461538464
     }
+  },
+  "poster_figure_analysis": {
+    "cca": {
+      "cca_in_sample_abs_r": 0.47744275398072106,
+      "cca_groupkfold_abs_r_mean": 0.36189455787601715,
+      "cca_groupkfold_abs_r_sd": 0.1279688148203431,
+      "cca_subject_block_permutation_p": 0.004975124378109453,
+      "top_physiology_features": [
+        {
+          "feature": "EDA_TD_P_Peaks",
+          "corr": 0.697034738151605
+        },
+        {
+          "feature": "EDA_TD_P_Skew",
+          "corr": -0.6274034163780483
+        },
+        {
+          "feature": "EDA_TD_P_Median",
+          "corr": 0.5766798260886044
+        },
+        {
+          "feature": "EDA_TD_P_Kurtosis",
+          "corr": -0.5736236170342618
+        },
+        {
+          "feature": "EDA_TD_P_AUC",
+          "corr": 0.538649887317844
+        }
+      ],
+      "top_affect_features": [
+        {
+          "affect": "active",
+          "corr": 0.7840423634366464
+        },
+        {
+          "affect": "alert",
+          "corr": 0.6863970224833876
+        },
+        {
+          "affect": "attentive",
+          "corr": 0.6009459385494621
+        },
+        {
+          "affect": "Frustrated",
+          "corr": 0.5753340024243145
+        },
+        {
+          "affect": "determined",
+          "corr": 0.5646200780306369
+        }
+      ]
+    },
+    "embeddings": [
+      {
+        "method": "PCA",
+        "silhouette_puzzle_vs_rest": 0.10684017358854593,
+        "groupkfold_knn_accuracy": 0.7371794871794872
+      },
+      {
+        "method": "UMAP",
+        "silhouette_puzzle_vs_rest": 0.06875263154506683,
+        "groupkfold_knn_accuracy": 0.7692307692307693
+      },
+      {
+        "method": "t-SNE",
+        "silhouette_puzzle_vs_rest": 0.05830031633377075,
+        "groupkfold_knn_accuracy": 0.7628205128205128
+      }
+    ]
   }
 }
