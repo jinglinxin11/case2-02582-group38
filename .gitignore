@@ -17,6 +17,7 @@ submission/video/
 
 # Temporary build/render artifacts.
 submission/tmp/
+submission/*.zip
 __pycache__/
 *.pyc
 
