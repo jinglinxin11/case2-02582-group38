@@ -18,11 +18,3 @@ Run from the Case 2 directory:
 ```powershell
 python .\submission\case2_analysis.py
 ```
-
-## What Still Needs Your Input
-
-1. Use `case2_report.pdf` directly, or compile `case2_report.tex` yourself if you prefer the LaTeX version.
-2. Record the 2-5 minute video while showing `case2_poster.png`.
-3. Submit the PDF report and video/poster presentation on Inside.
-
-Peer feedback is intentionally not included here because it must be written after each assigned peer video is unlocked.
