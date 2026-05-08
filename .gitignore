@@ -18,6 +18,7 @@ submission/video/
 # Temporary build/render artifacts.
 submission/tmp/
 submission/*.zip
+submission/case2_report_tex_figures/
 __pycache__/
 *.pyc
 
